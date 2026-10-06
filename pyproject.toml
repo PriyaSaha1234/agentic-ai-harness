@@ -1,11 +1,11 @@
 [project]
-name = "agent-harness-build"
+name = "agentic-ai-harness"
 version = "0.1.0"
-description = "Add your description here"
+description = "A custom agentic AI harness with tool calling, persistent memory, task planning, MCP integration, and autonomous workspace execution."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "google-genai",
     "mcp>=2.2.0",
-    "openai>=3.10.0",
     "pydantic>=2.13.5",
 ]
